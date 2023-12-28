@@ -1,0 +1,252 @@
+body {
+    overflow-x: hidden !important;
+}
+
+li {
+    list-style: none !important;
+}
+
+ul {
+    padding-left: 0 !important;
+}
+
+.background {
+    background: #c41b79;
+}
+
+menu {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+.background p {
+    color: #fff;
+    margin-bottom: 0 !important;
+    font-size: 16px;
+}
+
+a {
+    color: #642887;
+    text-decoration: none !important;
+    position: relative;
+    outline: none !important;
+}
+
+.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.tsr-header-global {
+    height: auto;
+    background: #642887;
+}
+
+.tsr-global-left {
+    float: left;
+}
+
+.tsr-global-left li, .tsr-global-right li {
+    display: inline-block;
+    float: left;
+}
+
+.tsr-global-right {
+    float: right;
+}
+
+
+.tsr-global-left menu, .tsr-global-right menu {
+    background: none;
+    position: static;
+}
+
+.tsr-global-left li.is-choosen a {
+    background: #4e256b;
+    cursor: pointer;
+    padding: 12px 9px 12px 9px;
+    margin: 0;
+    margin-right: -1px;
+    text-decoration: none;
+}
+
+.tsr-global-left li+li a, .tsr-section-header .tsr-global-right li+li a {
+    border-left: 1px solid #4e256b;
+}
+
+.tsr-global-right li+li a {
+    border-left: 1px solid #4e256b;
+}
+
+.tsr-global-left a, .tsr-section-header .tsr-global-right a {
+    font-size: 13px;
+    padding: 4px 9px 4px 9px;
+    font-weight: 700;
+    margin: 8px 0;
+    color: #fff;
+    display: block;
+    line-height: 1;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.tsr-global-left a:hover {
+    text-decoration: underline !important;
+    color: #fff;
+}
+
+.tsr-global-right li:first-child a {
+    border-left: none;
+}
+
+.tsr-global-right a {
+    font-size: 13px;
+    padding: 4px 9px 4px 9px;
+    font-weight: 700;
+    margin: 8px 0;
+    color: #fff;
+    display: block;
+    line-height: 1;
+}
+
+.lang_selector img {
+    margin-right: 5px;
+}
+
+.navbar-nav {
+    display: flex !important;
+}
+
+
+
+.tsr-global-left a, .tsr-section-header .tsr-global-right a {
+    font-size: 13px;
+    padding: 4px 9px 4px 9px;
+    font-weight: 700;
+    margin: 8px 0;
+    color: #fff;
+    display: block;
+    line-height: 1;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+select {
+    width: 100% !important;
+    outline: none;
+    padding: 10px 15px;
+    background: #4e256b;
+    color: #fff;
+    border: none;
+    display: none;
+}
+
+@media (max-width: 992px) {
+    select {
+        display: block;
+    }
+}
+
+.hi {
+    border-bottom: 2px solid transparent;
+}
+
+.hi:hover {
+    border-bottom: 2px solid #4e256b;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+.cards {
+    padding: 0 !important;
+    background: #f6f6f6 !important;
+    border-bottom: 5px solid #dbdbdb !important;
+}
+
+.cards:hover {
+    border-bottom: 5px solid #642887 !important;
+}
+
+.h {
+    height: 150px !important;
+}
+
+.h:hover {
+    background: #fff !important;
+}
+
+.tsr-news-icon {
+    padding-top: 6px;
+    text-align: center;
+    color: #fff;
+    background: #c41b79;
+    border-radius: 4px;
+    width: 64px;
+    height: 64px;
+    margin: 10px auto;
+}
+
+div.tsr-section-support {
+    background: #642887 !important;
+    border-top: 1px solid #4e256b;
+    border-bottom: 1px solid #4e256b;
+    padding: 0;
+}
+
+.tsr-module-support {
+    text-align: center;
+    width: 30%;
+    height: 200px;
+    border-right: 1px solid #4e256b;
+    color: #fff;
+}
+
+.tsr-module-support:hover {
+    background: #4e256b;
+}
+
+.f {
+    margin-top: 20px !important;
+    border-bottom: 5px solid transparent;
+}
+
+.f:hover {
+    background: #fff;
+    border-bottom: 5px solid #642887;
+}
+
+footer {
+    background: #4e256b;
+}
+
+footer a:hover {
+    text-decoration: underline !important;
+}
+
+footer .col-md-3 h4 {
+    padding: 0 0 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #371b4c;
+}
+
+footer li {
+    display: block;
+    padding: 8px 0;
+}
+
+.container-2 {
+    border-top: 1px solid #371b4c;
+    background: #652d86;
+}
+
+@media (max-width: 998px) {
+    .tsr-module-support {
+        border-right: none !important;
+    }
+}
+
+@media (max-width: 776px) {
+    .none {
+        display: none;
+    }
+}
